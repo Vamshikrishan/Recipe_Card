@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Recipe Card</title>
+  <link rel="icon" type="image/png" href="logo.jpg">
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="description" content="Interactive recipe card with animations — start cooking flow, progress bar, timer, responsive layout." />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="brand-inner">
+          <img src="logo.jpg" alt="Logo" class="brand-logo" />
+          <div class="brand-text">
+            <h1>Recipe Card</h1>
+            <p class="sub">Delicious Recipes You Can Cook, Bake, and Enjoy Anytime!</p>
+          </div>
+        </div>
+      </div>
+
+    <div class="controls">
+        <label for="recipe-select" class="sr-only">Choose recipe</label>
+        <select id="recipe-select" aria-label="Select recipe">
+            <option value="chocolate">Chocolate Cake</option>
+            <option value="pasta">Pasta</option>
+            <option value="paneer">Paneer Butter Masala</option>
+            <option value="fries">French Fries</option>
+            <option value="pizza">Pizza</option>
+            <option value="burger">Burger</option>
+            <option value="cupcakes">Cupcakes</option>
+            <option value="vegpuff">Veg Puff</option>
+            <option value="eggpuff">Egg Puff</option>
+        </select>
+    </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="recipe-card" id="recipe-card">
+      <div class="recipe-media" id="recipe-media">
+        <!-- image will be injected here; fallback background shown via CSS -->
+        <img id="recipe-image" src="chocolate_cake.png" alt="Recipe image" />
+      </div>
+
+      <div class="recipe-content">
+        <h2 id="recipe-title">Chocolate Cake</h2>
+
+        <div class="meta">
+          <span class="meta-item"><strong>Prep:</strong> <span id="prep-time">60</span> min</span>
+          <span class="meta-item"><strong>Serves:</strong> <span id="servings">8</span></span>
+        </div>
+
+        <div class="actions">
+          <button id="toggle-ingredients" class="btn">Show Ingredients</button>
+          <button id="toggle-steps" class="btn ghost">Show Steps</button>
+          <button id="start-cook" class="btn primary">Start Cooking</button>
+          <button id="next-step" class="btn accent" disabled>Next Step</button>
+          <button id="reset" class="btn god">Reset</button>
+        </div>
+
+        <div class="panels">
+          <div class="panel ingredients-panel" id="ingredients-panel" aria-hidden="true">
+            <h3>Ingredients</h3>
+            <ul id="ingredients-list" class="ingredients-list">
+              <!-- items injected -->
+            </ul>
+          </div>
+
+          <div class="panel steps-panel" id="steps-panel" aria-hidden="true">
+            <h3>Steps</h3>
+            <ol id="steps-list" class="steps-list">
+              <!-- steps injected -->
+            </ol>
+          </div>
+        </div>
+
+        <div class="progress-wrap" aria-hidden="false">
+          <div class="progress-label">Progress: <span id="progress-text">0 / 0</span></div>
+          <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+            <div class="progress-fill" id="progress-fill" style="width:0%"></div>
+          </div>
+          <div class="timer" id="timer">Timer: <span id="timer-value">--:--</span></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year">2025</span> P Vamshi Krishna — Built with HTML, CSS & JavaScript.</p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
