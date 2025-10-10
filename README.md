@@ -102,7 +102,9 @@ I love building creative, interactive projects that blend design and functionali
 
 ## 📬 Contact
 **📧 Email:** vamship250106@gmail.com
+
 **💼 LinkedIn:** linkedin.com/in/vamshi-krishna-a4ba0a350
+
 **🐙 GitHub:** github.com/Vamshikrishan
 
 ---
