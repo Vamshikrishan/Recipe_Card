@@ -56,10 +56,14 @@ You can explore multiple recipes, including:
 
 ## 🧱 Folder Structure
 recipe-card/
+
 │
 ├── index.html # Main HTML file
+
 ├── styles.css # CSS file (theme & layout)
+
 ├── script.js # JavaScript logic
+
 └── images/ # Recipe images
 
 
@@ -110,7 +114,8 @@ I love building creative, interactive projects that blend design and functionali
 ---
 
 ## 🏁 Credits
-Built by P Vamshi Krishna
+Built by **P Vamshi Krishna**
+as part of the **VaultofCodes Web Development Internship – Task-2**
 ⭐ If you like this project, please star this repository!
 
 ---
