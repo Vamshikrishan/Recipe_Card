@@ -114,7 +114,7 @@ I love building creative, interactive projects that blend design and functionali
 ---
 
 ## 🏁 Credits
-Built by **P Vamshi Krishna**
+Built by **Pasupunoori Vamshi Krishna**
 as part of the **VaultofCodes Web Development Internship – Task-2**
 ⭐ If you like this project, please star this repository!
 
