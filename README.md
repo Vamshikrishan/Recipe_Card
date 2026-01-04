@@ -1,7 +1,7 @@
 # 🍽️ Recipe Card
 
 This project is created as part of **Task-2 of my Web Development Internship at VaultofCodes**.  
-It’s an **interactive and visually appealing recipe web app** that lets users explore multiple dishes, view ingredients, follow step-by-step instructions, and even track cooking progress — all in a warm, elegant UI.
+It’s an **interactive and visually appealing recipe web app** that lets users explore multiple dishes, view ingredients, follow step-by-step instructions, and even track cooking progress all in a warm, elegant UI.
 
 ---
 
